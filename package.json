@@ -1,0 +1,43 @@
+{
+  "name": "gulp-yo-yo",
+  "version": "0.1.0",
+  "description": "gulp plugin to transform yo-yo/bel/choo templates into pure and fast document calls",
+  "repository": "shinnn/gulp-yo-yo",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "eslint --fix --config @shinnn/node index.js test.js",
+    "test": "node --throw-deprecation --track-heap-objects test.js",
+    "coverage": "istanbul cover test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "choo",
+    "yo-yo",
+    "yo-yoify",
+    "bel",
+    "transform",
+    "transformer",
+    "template",
+    "contents",
+    "compile",
+    "compiler",
+    "purify"
+  ],
+  "dependencies": {
+    "falafel": "github:substack/node-falafel#17ef2d851c4a023807bbfb0486f1cfdc34852d63",
+    "gulp-util": "^3.0.7",
+    "vinyl": "^1.2.0",
+    "yo-yoify": "^3.4.1"
+  },
+  "devDependencies": {
+    "@shinnn/eslint-config-node": "^3.0.0",
+    "eslint": "^3.4.0",
+    "istanbul": "^0.4.5",
+    "tape": "^4.6.0"
+  }
+}
