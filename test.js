@@ -7,9 +7,10 @@ const File = require('vinyl');
 const test = require('tape');
 const yoYo = require('.');
 
-const expected = `const yo = require(\'yo-yo\');(function () {
+const expected = `const yo = require('yo-yo');(function () {
       
-      var ac = require(\'${require.resolve('yo-yoify/lib/appendChild.js')}\')\n      var bel0 = document.createElement("div")
+      var ac = require('${require.resolve('yo-yoify/lib/appendChild.js')}')
+      var bel0 = document.createElement("div")
       return bel0
     }())`;
 
