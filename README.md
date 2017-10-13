@@ -1,10 +1,8 @@
 # gulp-yo-yo
 
-[![NPM version](https://img.shields.io/npm/v/gulp-yo-yo.svg)](https://www.npmjs.com/package/gulp-yo-yo)
+[![npm version](https://img.shields.io/npm/v/gulp-yo-yo.svg)](https://www.npmjs.com/package/gulp-yo-yo)
 [![Build Status](https://travis-ci.org/shinnn/gulp-yo-yo.svg?branch=master)](https://travis-ci.org/shinnn/gulp-yo-yo)
 [![Coverage Status](https://coveralls.io/repos/github/shinnn/gulp-yo-yo/badge.svg?branch=master)](https://coveralls.io/github/shinnn/gulp-yo-yo?branch=master)
-[![dependencies Status](https://david-dm.org/shinnn/gulp-yo-yo/status.svg)](https://david-dm.org/shinnn/gulp-yo-yo)
-[![devDependencies Status](https://david-dm.org/shinnn/gulp-yo-yo/dev-status.svg)](https://david-dm.org/shinnn/gulp-yo-yo?type=dev)
 
 [gulp](https://github.com/gulpjs/gulp) plugin to transform [yo-yo](https://github.com/maxogden/yo-yo), [bel](https://github.com/shama/bel) or [choo](https://github.com/yoshuawuyts/choo) templates into pure and fast document calls
 
@@ -27,7 +25,7 @@ const yo = require("yo-yo");
 
 ## Installation
 
-[Use npm.](https://docs.npmjs.com/cli/install)
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/getting-started/what-is-npm).
 
 ```
 npm install --save-dev gulp-yo-yo
@@ -58,6 +56,4 @@ gulp.task('default', () => {
 
 ## License
 
-Copyright (c) 2016 [Shinnosuke Watanabe](https://github.com/shinnn)
-
-Licensed under [the MIT License](./LICENSE).
+[ISC License](./LICENSE) © 2017 Shinnosuke Watanabe
