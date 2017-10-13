@@ -1,6 +1,6 @@
 {
   "name": "gulp-yo-yo",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "gulp plugin to transform yo-yo/bel/choo templates into pure and fast document calls",
   "repository": "shinnn/gulp-yo-yo",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
