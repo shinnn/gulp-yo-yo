@@ -32,13 +32,13 @@
     "falafel": "^2.1.0",
     "gulp-util": "^3.0.8",
     "vinyl": "^2.0.2",
-    "yo-yoify": "^3.7.3"
+    "yo-yoify": "^4.0.0"
   },
   "devDependencies": {
-    "@shinnn/eslint-config-node": "^3.0.0",
-    "eslint": "^3.19.0",
+    "@shinnn/eslint-config-node": "^4.0.2",
+    "eslint": "^4.8.0",
     "istanbul": "^0.4.5",
-    "tape": "^4.6.3"
+    "tape": "^4.8.0"
   },
   "eslintConfig": {
     "extends": "@shinnn/node"

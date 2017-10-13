@@ -12,10 +12,9 @@ module.exports = function gulpYoYo() {
     objectMode: true,
     transform(file, enc, cb) {
       if (!isVinyl(file)) {
-        cb(new PluginError('gulp-yo-yo', new TypeError(
-          inspect(file) +
-          ' is not a Vinyl file. Expected a Vinyl file object of a JavaScript file.'
-        )));
+        cb(new PluginError('gulp-yo-yo', new TypeError(`${
+          inspect(file)
+        } is not a Vinyl file. Expected a Vinyl file object of a JavaScript file.`)));
         return;
       }
 
